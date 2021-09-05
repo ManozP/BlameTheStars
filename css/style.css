@@ -462,17 +462,14 @@ h1, h2, h3, h4, h5, h6 {
 # Banner Section
 --------------------------------------------------------------*/
 .banner img {
+  /* max-width: 100%;
+  max-height: 500px; */
   width: 100%;
   height: 500px;
-  position: absolute;
-  top: 150px;
-  left: 0;
   z-index: -100;
 }
 
 .askques h1 {
-  height: 54px;
-  width: 378px;
   position: absolute;
   left: 119px;
   top: 251px;
@@ -496,10 +493,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
-.bannersection {
-  position: absolute;
-  top: 521px;
-  width: 80%;
+.get_kundali {
+  margin-top: -100px;
 }
 
 .row {
@@ -507,23 +502,84 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kundalibox {
-  position: absolute;
-  height: 484px;
-  width: 589px;
-  left: 120px;
+  width: 100%;
   border-radius: 12px;
   padding: 30px 45px 33px 45px;
   background: #FDF5F0;
+  height: 484px;
 }
 
 .panchangbox {
-  position: absolute;
-  height: 484px;
-  width: 580px;
-  left: 740px;
+  width: 100%;
   border-radius: 12px;
   padding: 30px 45px 33px 45px;
   background: #FDF5F0;
+  height: 484px;
+}
+
+.get_horoscope {
+  padding: 45px 0px;
+  text-align: center;
+}
+
+.get_title {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #F2994A;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  width: 449px;
+}
+
+.get_title h3 {
+  color: #01539E;
+  font-family: Proza Libre;
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.get_title p {
+  color: #A5ADB6;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.get_title img {
+  position: absolute;
+  left: 45%;
+  right: auto;
+  top: 84%;
+  background: #fff;
+  padding: 5px;
+}
+
+.get_moon_sign {
+  float: right;
+  background: linear-gradient(180deg, #DE9D12 0%, #FFC54A 100%);
+  border-radius: 6px;
+  border: none;
+  height: 48px;
+  width: 167px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #343A40;
+  margin-top: 80px;
+}
+
+.moonsign_card img {
+  width: 90px;
+  height: 90px;
 }
 
 /*======================================
