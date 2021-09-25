@@ -82,7 +82,56 @@
   text-align: justify;
   color: #A5ADB6;
 }
+
 .moonsign_card img {
   width: 70px;
   height: 70px;
+}
+
+.moonsign_card h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #343A40;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.moonsign_card p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #A5ADB6;
+}
+
+.daily_horoscope {
+  width: 90%;
+  height: auto;
+  background: linear-gradient(269.95deg, #130E2D 49.98%, rgba(4, 15, 54, 0.89) 101.31%, rgba(34, 27, 69, 0.858) 101.32%, rgba(255, 255, 255, 0) 101.32%);
+  border-radius: 24px;
+  margin: 40px auto;
+  padding: 30px 50px;
+}
+
+.daily_horoscope h4 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #F2BC94;
+  padding-bottom: 5px;
+}
+
+.daily_horoscope p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  color: #FFFFFF;
 }
