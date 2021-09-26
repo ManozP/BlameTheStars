@@ -135,3 +135,88 @@
   text-align: justify;
   color: #FFFFFF;
 }
+
+.Know_more p {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #01539E;
+  margin-top: 60px;
+}
+
+.Know_more h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A5ADB6;
+  width: 50%;
+}
+
+.btn_know_more {
+  width: 176px;
+  height: 50px;
+  background: #DE9D12;
+  border-radius: 12px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.full_report {
+  text-align: center;
+  background-image: url("../images/bg_report.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  max-width: 100%;
+  height: 290px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.full_report_content {
+  position: relative;
+  margin-top: -300px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.full_report_content img {
+  height: 199px;
+  width: 236px;
+}
+
+.full_report_content h1 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  color: #FDF5F0;
+}
+
+.full_report_content h3 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  color: #F2994A;
+}
+
+.btn_get_report {
+  height: 50px;
+  width: 224px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #DE9D12 0%, #FFC54A 100%);
+  margin-top: 40px;
+}

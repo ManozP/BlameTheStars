@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-.kundalibox label {
+.kundalibox label, .match_test_box1 label, .match_test_box2 label {
   font-family: Nunito;
   font-style: normal;
   font-weight: normal;
@@ -564,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #65707B;
 }
 
-.kundalibox input {
+.kundalibox input, .match_test_box1 input, .match_test_box2 input{
   margin-bottom: 20px;
   background: #FFFAF7;
   border: 1px solid #F8E5D7;
@@ -1058,27 +1058,56 @@ input[type=radio]:checked {
   margin-left: 10px;
 }
 
-.kundli_bg {
-  z-index: -1000;
-}
-
 .match_test {
   background: #FAF5F1;
   border: 3px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 12px;
-  height: 450px;
-  width: 83%;
-  border-radius: 12px;
+  height: auto;
+  width: 100%;
   margin-top: -215px;
-  position: absolute;
-  z-index: 1000;
+  position: relative;
+  padding: 30px 20px;
+}
+
+.match_test p {
+  border-bottom: 3px solid #F8E5D7;
+  width: 230px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.match_test_box1{
+    border-right: 3px solid #FFFFFF;
+    padding-right: 20px;
+}
+.match_test_box2{
+
+}
+
+.btn_match_kundli {
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  border-radius: 12px;
+  height: 50px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .blog {
   padding: 45px 0px;
   text-align: center;
-  margin-top: 290px;
+  margin-top: 20px;
 }
 
 .blog_card {

@@ -108,7 +108,7 @@
                   <div class="col-sm-12 col-md-12 col-lg-6">
                     <label for="birthplace" class="form-label">Birthplace</label>
                     <select class="form-select place_holder mb-4" id="birthplace" name="">
-                      <option value="" disabled selected hidden>Select Category</option>
+                      <option value="" disabled selected hidden></option>
                       <option value="kathmandu">Kathmandu</option>
                       <option value="bhaktapur">Bhaktapur</option>
                       <option value="lalitpur">Lalitpur</option>
@@ -361,8 +361,8 @@
 
       <div class="container">
         <div class="astro_online">
-          <div class="row text-center">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="astro_card d-flex justify-content-between">
                 <div class="d-flex align-items-center">
                   <div class="profile position-relative">
@@ -388,7 +388,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="astro_card d-flex justify-content-between">
                 <div class="d-flex align-items-center">
                   <div class="profile position-relative">
@@ -414,7 +414,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="astro_card d-flex justify-content-between">
                 <div class="d-flex align-items-center">
                   <div class="profile position-relative">
@@ -550,7 +550,6 @@
     </div>
     <div class="kundli">
       <div class="bg_consult">
-        <img class="kundli_bg" src="images/BG.png" alt="">
         <div class="get_title_consult">
           <h3>KUNDLI MATCHING</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -562,10 +561,102 @@
     </div>
     <div class="container d-flex justify-content-center">
       <div class="match_test">
-
+        <div class="row ">
+          <div class="col-lg-6 ">
+            <p>Enter Your Birth Details</p>
+            <form class="" action="index.html" method="post">
+              <div class="row match_test_box1">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <label for="InputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="InputName">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <label for="birthdate" class="form-label">Birth Year</label>
+                  <input type="date" class="form-control" id="birthdate">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <label for="birthtime" class="form-label">Birth Time</label>
+                  <input type="time" class="form-control" id="birthtime">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <label for="birthplace" class="form-label">Birthplace</label>
+                  <select class="form-select place_holder mb-4" id="birthplace" name="">
+                    <option value="" disabled selected hidden></option>
+                    <option value="kathmandu">Kathmandu</option>
+                    <option value="bhaktapur">Bhaktapur</option>
+                    <option value="lalitpur">Lalitpur</option>
+                    <option value="kirtipur">Kirtipur</option>
+                  </select>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <label for="gender" class="form-label">Gender</label> <br>
+                  <div class="form-check form-check-inline mt-1">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label" for="male">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline mt-1">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" for="female">Female</label>
+                  </div>
+                  <div class="form-check form-check-inline mt-1">
+                    <input class="form-check-input" type="radio" name="gender" id="others" value="Others">
+                    <label class="form-check-label" for="others">Others</label>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <p>Enter Your Partner Birth Details</p>
+          <form class="" action="index.html" method="post">
+            <div class="row match_test_box2">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <label for="InputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="InputName">
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <label for="birthdate" class="form-label">Birth Year</label>
+                <input type="date" class="form-control" id="birthdate">
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <label for="birthtime" class="form-label">Birth Time</label>
+                <input type="time" class="form-control" id="birthtime">
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <label for="birthplace" class="form-label">Birthplace</label>
+                <select class="form-select place_holder mb-4" id="birthplace" name="">
+                  <option value="" disabled selected hidden></option>
+                  <option value="kathmandu">Kathmandu</option>
+                  <option value="bhaktapur">Bhaktapur</option>
+                  <option value="lalitpur">Lalitpur</option>
+                  <option value="kirtipur">Kirtipur</option>
+                </select>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <label for="gender" class="form-label">Gender</label> <br>
+                <div class="form-check form-check-inline mt-1">
+                  <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                  <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline mt-1">
+                  <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                  <label class="form-check-label" for="female">Female</label>
+                </div>
+                <div class="form-check form-check-inline mt-1">
+                  <input class="form-check-input" type="radio" name="gender" id="others" value="Others">
+                  <label class="form-check-label" for="others">Others</label>
+                </div>
+              </div>
+          </form>
+        </div>
       </div>
-      <div class="clearfix">
-      </div>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn_match_kundli">Match Your Kundli</button>
+    </div>
+    </div>
+    <div class="clearfix">
+    </div>
     </div>
     <div class="blog">
       <div class="container">
@@ -574,8 +665,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           <img src="images/sun.png" alt="">
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="row mt-4 justify-content-center">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="blog_card">
               <div class="d-flex justify-content-between blog_title">
                 <img src="images/blogimg1.png" alt="">
@@ -591,7 +682,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="blog_card">
               <div class="d-flex justify-content-between blog_title">
                 <img src="images/blogimg1.png" alt="">
@@ -607,7 +698,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="blog_card">
               <div class="d-flex justify-content-between blog_title">
                 <img src="images/blogimg1.png" alt="">
@@ -641,8 +732,8 @@
 
       <div class="container">
         <div class="testimonials">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="testi_card">
                 <div class="testi_pro_pic">
                   <img src="images/propic.png" alt="">
@@ -663,7 +754,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="testi_card">
                 <div class="testi_pro_pic">
                   <img src="images/Elli.png" alt="">
@@ -684,7 +775,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
               <div class="testi_card">
                 <div class="testi_pro_pic">
                   <img src="images/propic.png" alt="">
