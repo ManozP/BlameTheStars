@@ -220,3 +220,70 @@
   background: linear-gradient(180deg, #DE9D12 0%, #FFC54A 100%);
   margin-top: 40px;
 }
+
+.get_moonsign {
+  margin-bottom: 30px;
+  padding: 30px;
+  background: #FDF5F0;
+  box-shadow: 0px 8px 24px rgba(123, 64, 9, 0.1);
+  border-radius: 12px;
+}
+
+.get_moonsign p{
+  border-bottom: 3px solid #F8E5D7;
+  width: 180px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.get_moonsign label {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #65707B;
+}
+
+.get_moonsign input {
+  margin-bottom: 20px;
+  background: #FFFAF7;
+  border: 1px solid #F8E5D7;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.btn_get_moonsign {
+  height: 50px;
+  width: 80%;
+  border-radius: 12px;
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.moonsign_content {
+  padding: 10px 70px;
+  text-align: justify;
+}
+
+.moonsign_content p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: #65707B;
+}
