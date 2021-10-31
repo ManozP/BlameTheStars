@@ -1,4 +1,3 @@
-
 /* =====================================
 Site Name: Blame The Stars
 =======================================*/
@@ -565,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #65707B;
 }
 
-.kundalibox input, .match_test_box1 input, .match_test_box2 input{
+.kundalibox input, .match_test_box1 input, .match_test_box2 input {
   margin-bottom: 20px;
   background: #FFFAF7;
   border: 1px solid #F8E5D7;
@@ -673,13 +672,13 @@ input[type=radio]:checked {
   margin-bottom: 0;
 }
 
-.month_samvat, .dwadashi{
+.month_samvat, .dwadashi {
   margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #fff;
 }
 
-.month_samvat_left_box{
+.month_samvat_left_box {
   border-right: 2px solid #fff;
 }
 
@@ -710,6 +709,7 @@ input[type=radio]:checked {
   letter-spacing: 1px;
   margin-bottom: 0;
 }
+
 .dwadashi h6 {
   font-family: Nunito;
   font-style: normal;
@@ -719,7 +719,7 @@ input[type=radio]:checked {
   color: #A5ADB6;
 }
 
-.abhijit_rahu{
+.abhijit_rahu {
   margin-top: 20px;
   text-align: left;
 }
@@ -972,11 +972,16 @@ input[type=radio]:checked {
 }
 
 .shop_card {
-  height: 190px;
+  height: auto;
   width: 270px;
   border-radius: 12px;
+  margin: 20px auto;
+  padding-bottom: 5px;
+}
+
+.disc_rating{
   background: #FFFAF7;
-  margin: 10px;
+  border-radius: 12px 0px 0px 0px;
 }
 
 .discount {
@@ -1019,10 +1024,14 @@ input[type=radio]:checked {
   transform: scale(1.2);
 }
 
+.stone_thumbnail {
+  background: #FFFAF7;
+}
+
 .shop_card img {
   width: 100px;
   height: 100px;
-  margin-top: 25px;
+  margin: 20px auto;
 }
 
 .prod_price {
@@ -1079,13 +1088,12 @@ input[type=radio]:checked {
   margin-top: 20px;
 }
 
-.match_test_box1{
-    border-right: 3px solid #FFFFFF;
-    padding-right: 20px;
+.match_test_box1 {
+  border-right: 3px solid #FFFFFF;
+  padding-right: 20px;
 }
-.match_test_box2{
 
-}
+.match_test_box2 {}
 
 .btn_match_kundli {
   background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
