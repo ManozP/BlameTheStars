@@ -1,0 +1,53 @@
+.astro_list_card {
+  height: auto;
+  width: 373px;
+  border-radius: 12px;
+  margin: 20px 15px;
+  padding: 20px 40px;
+  text-align: left;
+  position: relative;
+  background: #FAF5F1;
+  border: 1px solid #F8E5D7;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.astrologer_info {
+  margin-top: 30px;
+}
+
+.astrologer_info span {
+  margin-right: 20px;
+}
+
+.astrologer_info p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #343A40;
+}
+
+.fas {
+  color: #005DB2;
+  font-size: 18px;
+}
+.call_astro {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #01539E;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.call_astro i {
+  color: #fff;
+}
