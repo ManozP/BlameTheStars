@@ -1341,7 +1341,6 @@ button:focus {
 
 .form-control:focus, .form-select:focus {
   border-color: #005DB2;
-  ;
   -webkit-box-shadow: none;
   box-shadow: none;
 }

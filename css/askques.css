@@ -1,0 +1,228 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background: #FDF5F0;
+}
+
+.detail_box {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.detail_box img {
+  width: 70px;
+  height: 70px;
+}
+
+.detail_box h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #DE9D12;
+  margin-top: 10px;
+}
+
+.icon_fade {
+  opacity: 0.2;
+}
+
+.progress_line {
+  border: 1px solid #DE9D12;
+  width: 15%;
+  height: 2px;
+  margin-top: 35px;
+}
+
+.enter_details {
+  width: 100%;
+  border-radius: 24px;
+  padding: 30px 20px;
+  background: #FDF5F0;
+  border: 1px solid #F8CFB1;
+  box-shadow: 0px 8px 24px rgba(123, 64, 9, 0.1);
+  height: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1C1F22;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.enter_details h5 {
+  border-bottom: 3px solid #F8E5D7;
+  width: 210px;
+  padding-bottom: 10px;
+  margin: 5px auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1C1F22;
+}
+
+.enter_details p {
+  width: 210px;
+  padding-bottom: 10px;
+  margin: 5px auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1C1F22;
+}
+
+.enter_details label {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #65707B;
+  text-align: left;
+}
+
+.enter_details input {
+  margin-bottom: 20px;
+  background: #FFFAF7;
+  border: 1px solid #F8E5D7;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.btn_submit_details {
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  border-radius: 12px;
+  height: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.pay_option img {
+  width: 160px;
+  height: 95px;
+  margin: 0 20px;
+}
+
+.pay_box {
+  border-bottom: 1px dashed #65707B;
+  padding-bottom: 30px;
+  margin: 10px 50px;
+}
+
+.confirm_details {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: left;
+}
+
+.confirm_details p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #A5ADB6;
+  width: 100px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.confirm_details h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1C1F22;
+  width: 180px;
+  margin-bottom: 0;
+}
+
+.btn_confirm_details {
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  border-radius: 12px;
+  height: 50px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn_download_pdf {
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  border-radius: 12px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.answer_body h2 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  color: #F2994A;
+}
+
+.answer_body h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A5ADB6;
+}
+
+.answer_body h4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1C1F22;
+}
+
+.answer_body p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: #65707B;
+}
