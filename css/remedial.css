@@ -1,0 +1,226 @@
+.gem_list_card {
+  height: auto;
+  width: 373px;
+  border-radius: 12px;
+  margin: 20px 15px;
+  padding: 20px 40px;
+  text-align: left;
+  position: relative;
+  background: #FAF5F1;
+  border: 1px solid #F8E5D7;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.gem_img {
+  text-align: center;
+}
+
+.gem_img img {
+  width: 100px;
+  height: 100px;
+}
+
+.gem_img p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #01539E;
+  margin-top: 10px;
+}
+
+.gem_short_details i {
+  color: #003D74;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.gem_short_details p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #343A40;
+}
+
+.buy-btn {
+  width: 70px;
+  height: 36px;
+  background: #FDF5F0;
+  border: 1px solid #DE9D12;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #DE9D12;
+}
+
+.display_option {}
+
+.items_display_list {
+  width: 50px;
+  height: 50px;
+  background: rgba(124, 109, 109, 0.5);
+  border-radius: 12px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item_display {
+  margin-left: 20px;
+}
+
+.item_display img {
+  width: 400px;
+  height: 408px;
+  border-radius: 12px;
+}
+
+.btn_quantity {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #A5ADB6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #A5ADB6;
+  padding-top: 0;
+}
+
+.quantity_input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #A5ADB6;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: linear-gradient(182.99deg, #003D74 2.47%, #005DB2 97.52%);
+  margin: 0 10px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FDF5F0;
+}
+
+.weight_input {
+  width: 103px;
+  height: 40px;
+  background: #EAE0D9;
+  border: 1px solid #FAF5F1;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0073DD;
+}
+
+.btn_cart {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.btn_buy {
+  width: 163px;
+  height: 50px;
+  background: linear-gradient(180deg, #DE9D12 0%, #FFC54A 100%);
+  border: 1px solid #DE9D12;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.item_details hr {
+  background-color: #fff;
+  height: 5px;
+}
+
+.item_price p, .item_quantity p, .item_weight p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #65707B;
+}
+
+.item_price h4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  color: #343A40;
+}
+
+.item_price span {
+  text-decoration-line: line-through;
+  color: #A5ADB6;
+  margin-left: 15px;
+}
+
+.item_stock p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #A5ADB6;
+}
+
+.item_stock span {
+  color: #343A40;
+}
+
+.item_review p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #343A40;
+}
+
+.item_details h2 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  color: #F2994A;
+}
+
+.item_details h1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #343A40;
+}
+
+.remedial_items h6 {
+  font-family: Proza Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #1C1F22;
+}
