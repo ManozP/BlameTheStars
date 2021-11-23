@@ -149,7 +149,7 @@
 
 .item_details hr {
   background-color: #fff;
-  height: 5px;
+  height: 10px;
 }
 
 .item_price p, .item_quantity p, .item_weight p {
@@ -216,6 +216,31 @@
   color: #343A40;
 }
 
+.item_description {
+  width: 55%;
+  text-align: left;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+
+.item_description h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #343A40;
+}
+
+.item_description p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A5ADB6;
+}
+
 .remedial_items h6 {
   font-family: Proza Libre;
   font-style: normal;
@@ -223,4 +248,72 @@
   font-size: 24px;
   line-height: 33px;
   color: #1C1F22;
+}
+
+.cart_card {
+  width: 100%;
+  height: auto;
+  background: #FAF5F1;
+  border: 1px solid #D2D6DA;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.order_summary {
+  width: 380px;
+  height: auto;
+  background: #FAF5F1;
+  border: 1px solid #D2D6DA;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 20px 40px;
+}
+
+.order_details {
+  border-bottom: 3px dotted #005DB2;
+}
+
+.order_details h6 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #01539E;
+  margin-bottom: 20px;
+}
+
+.order_details p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #343A40;
+}
+
+.summary_title {
+  width: 150px;
+}
+
+.order_total {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1C1F22;
+}
+
+.order_payment {
+  width: 275px;
+  height: 50px;
+  background: linear-gradient(180deg, #DE9D12 0%, #FFC54A 100%);
+  border-radius: 12px;
+  font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #343A40;
 }
